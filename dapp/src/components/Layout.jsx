@@ -20,8 +20,6 @@ function Layout() {
     );
   }, [signer]);
 
-  useEffect(() => console.log(contract), [contract]);
-
   return (
     <div className="bg-red-100 min-h-screen">
       <Header signer={signer} setSigner={setSigner} />
