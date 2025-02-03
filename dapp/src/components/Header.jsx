@@ -19,7 +19,7 @@ function Header({ signer, setSigner }) {
   };
 
   return (
-    <header className="bg-green-100 flex justify-between items-center px-8 h-20">
+    <header className="flex justify-between items-center px-8 h-20">
       <div className="text-2xl font-semibold">🌏 Earth & Run 🏃‍♀️</div>
       <div className="flex gap-4">
         <Link className="link-style" to="/">
